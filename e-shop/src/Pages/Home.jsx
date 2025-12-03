@@ -1,6 +1,6 @@
 import ProductCard from '../components/ProductCard'
 import './Home.css'
-import image1 from './Imgs/img1.jpg'
+import image1 from './img1.jpg'
 export default function Home(){
     return (
         <div>
