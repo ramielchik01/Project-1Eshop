@@ -1,13 +1,14 @@
-const ProductCard = () => {
-    return(
-        <div className="productcards">
+import './ProductCard.css';
 
-            <div className="Card-image">
-                <span>Photo</span>
-            </div>
-            <h3 className="product-title"></h3>
-            <p className="product-price"></p>
-        </div>
-    )
+export default function ProductCard() {
+  return (
+    <div className="product-card">
+      <div className="product-img-placeholder"></div>
+
+      <h3 className="product-name">Product Name</h3>
+      <p className="product-price">$00.00</p>
+
+      <button className="product-btn">View Details</button>
+    </div>
+  );
 }
-export default ProductCard;
