@@ -1,6 +1,7 @@
+
 import './ProductCard.css';
 
-export default function ProductCard() {
+export default function Products() {
   return (
     <div className="product-card">
       <div className="product-img-placeholder"></div>
