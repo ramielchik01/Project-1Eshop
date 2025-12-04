@@ -1,8 +1,5 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun, faCartArrowDown, faPerson } from '@fortawesome/free-solid-svg-icons';
-
 export default function Navbar() {
   return (
     <nav className='navbar'>
@@ -15,10 +12,11 @@ export default function Navbar() {
         <li><Link to="/products">Products</Link></li>
       </ul>
 
-      <div className='nav-left'>
-        <FontAwesomeIcon className='Logo-icon' icon={faSun} />
-        <FontAwesomeIcon className='Logo-icon' icon={faCartArrowDown} />
-        <FontAwesomeIcon className='Logo-icon' icon={faPerson} />
+      <div className='nav-right'>
+        <span className='Logo-icon'>☀</span>
+        <span className='Logo-icon'>🛒</span>
+        <span className='Logo-icon'>👤</span>
+
       </div>
     </nav>
   );
