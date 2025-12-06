@@ -1,4 +1,4 @@
-import './Product.css';
+import './Products.css';
 import ProductCard from '../components/ProductCard';
 export default function Products(){
     return(

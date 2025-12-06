@@ -14,9 +14,8 @@ export default function Navbar() {
 
       <div className='nav-right'>
         <span className='Logo-icon'>☀</span>
-        <span className='Logo-icon'>🛒</span>
-        <span className='Logo-icon'>👤</span>
-
+        <li><Link to='/cart'  className='Logo-icon'>🛒</Link></li>
+        <li><Link to='/log-in'  className='Logo-icon'>👤</Link></li>
       </div>
     </nav>
   );

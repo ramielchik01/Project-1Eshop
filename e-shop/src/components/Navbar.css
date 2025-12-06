@@ -32,7 +32,7 @@
 .Nav-links a:hover{
     color:#000;
 }
-.nav-left{
+.nav-right{
     align-items: center;
     display: flex;
     line-height: 24px;
@@ -44,7 +44,12 @@
     cursor: pointer;
     color: #000000de;
     transition: 0.3s;
+    text-decoration: none;
+    
 }
 .Logo-icon:hover {
     color: black;
+}
+li {
+    list-style: none;
 }
